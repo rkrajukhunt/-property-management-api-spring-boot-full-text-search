@@ -1,0 +1,7 @@
+server:
+  port: ${server_port:8001}
+spring:
+  application:
+    name: Property-management
+  profiles:
+    active: "local"
