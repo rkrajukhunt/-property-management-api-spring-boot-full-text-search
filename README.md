@@ -1,32 +1,32 @@
-**Property Management API Spring Boot Full Text Search with MySQL**
+## Property Management API Spring Boot Full Text Search with MySQL
 
-
-GET  **Welcome**
+1. GET  **Welcome**
 `http://localhost:8001`
 
-
-GET **Property List**
+2. GET **Property List**
 `http://localhost:8001/property/ `
 
+3. GET **Search Property**
+`http://localhost:8001/property/{search-text} `
 
-GET **Search Property**
-`http://localhost:8001/property/Telangana `
-
-
-POST **Create Property**
+4. POST **Create Property**
 `http://localhost:8001/property/ `
 
+5. PUT **Update Property**
+`http://localhost:8001/property/approveProperty/{id} `
 
-PUT **Update Property**
-`http://localhost:8001/property/approveProperty/60930a37-7151-4536 `
+6. PUT **Approve Property**
+`http://localhost:8001/property/{:propertyId}`
 
-
-PUT **Approve Property**
-`http://localhost:8001/property/60930a37-7151-4536-b804-e83fae04d031`
-
-
-POST **Login**
+7. POST **Login**
 `http://localhost:8001/login`
 
-POST **Register**
+8. POST **Register**
 `http://localhost:8001/register` 
+
+[Postman Documents](https://documenter.getpostman.com/view/11818938/TzJrBKAZ "Postman Documents")
+
+
+
+
+
