@@ -1,0 +1,1 @@
+# -property-management-api-spring-boot-full-text-search
